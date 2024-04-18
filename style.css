@@ -1,0 +1,111 @@
+html, body {
+  font-family: 'RightGrotesk-Medium';
+  margin: 10px;
+  padding: 0;
+}
+
+canvas{
+  z-index: 0;
+  position: absolute;
+  left:0px;
+  top:63px;
+}
+
+.logo{
+  z-index: 1;
+  width: 258px;
+  position: absolute;
+  left:62px;
+  top:9px;
+}
+
+.lineup{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: 'RightGrotesk-SpatialBlack';
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.1;
+  left:64.5px;
+  top:66px;  
+}
+
+.berghain{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: 'RightGrotesk-SpatialBlack';
+  position: absolute;
+  font-size: 17px;
+  text-align: left;
+  line-height: 1.1;
+  left:423.5px;
+  top: 951.4px; 
+}
+
+.time{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: 'RightGrotesk-SpatialBlack';
+  position: absolute;
+  font-size: 29.7px;
+  text-align: right;
+  line-height: 1.1;
+  left:423.2px;
+  top:952px;  
+}
+
+.date{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: 'RightGrotesk-SpatialBlack';
+  position: absolute;
+  font-size: 56px;
+  text-align: left;
+  line-height: 1.1;
+  left:62.5px;
+  top:901px;  
+}
+
+.musicboard{
+  z-index: 1;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 22px;
+  top:745px;  
+}
+
+.year{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: 'RightGrotesk-SpatialBlack';
+  position: absolute;
+  font-size: 22.9px;
+  text-align: left;
+  line-height: 1;
+  left:326px;
+  top:944.3px;  
+}
+
+.live{
+  z-index: 1;
+  font-family: 'RightGrotesk-WideMedium';
+  color:  #0C0D0D;
+  position: absolute;
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.1;
+  left: 620.8px;
+  top: 141.4px;
+} 
+
+.vol7{
+  z-index:1;
+  position: absolute;
+  width:93px;
+  left:316px;
+  top:43px;
+  
+}
+
