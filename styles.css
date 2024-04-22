@@ -77,7 +77,7 @@ li span {
 }
 
 @media all and (max-width: 768px) {
-  h2 {
+  h3 {
     font-size: calc(1.5rem * var(--smaller));
   }
   
