@@ -82,7 +82,7 @@ li span {
 
 #myVideo {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   object-fit: cover;
   position: fixed;
   left: 0;
@@ -90,5 +90,5 @@ li span {
   top: 0;
   bottom: 0;
   z-index: -1;
-  scale: 130%;
+  scale: 150%;
   }
