@@ -9,7 +9,7 @@ var hydra = new Hydra({
  })
 
 
-setResolution(window.Width,window.Height);
+setResolution(window.innerWidth,window.innerHeight);
 a.setBins(8)
 
 src(o0)
@@ -26,3 +26,5 @@ osc( 20, 0.01, ()=>a.fft[7]*3).modulate(noise(3),()=>a.fft[0])
 
 
    speed=0.8
+
+   
