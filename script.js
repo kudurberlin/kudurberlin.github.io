@@ -1,43 +1,30 @@
-(function () {
-    const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-  
-    //I'm adding this section so I don't have to keep updating this pen every year :-)
-    //remove this if you don't need it
-    let today = new Date(),
-        dd = String(today.getDate()).padStart(2, "0"),
-        mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear(),
-        nextYear = yyyy + 1,
-        dayMonth = "05/25/",
-        birthday = dayMonth + yyyy;
-    
-    today = mm + "/" + dd + "/" + yyyy;
-    if (today > birthday) {
-      birthday = dayMonth + nextYear;
-    }
-    //end
-    
-    const countDown = new Date(birthday).getTime(),
-        x = setInterval(function() {    
-  
-          const now = new Date().getTime(),
-                distance = countDown - now;
-  
-          document.getElementById("days").innerText = Math.floor(distance / (day)),
-            document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-            document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-  
-          //do something later when date is reached
-          if (distance < 0) {
-            document.getElementById("headline").innerText = "It's my birthday!";
-            document.getElementById("countdown").style.display = "none";
-            document.getElementById("content").style.display = "block";
-            clearInterval(x);
-          }
-          //seconds
-        }, 0)
-    }());
+
+/*global Hydra*/
+/*global osc*/
+
+var hydra = new Hydra({
+  canvas: document.getElementById("myCanvas"),
+  detectAudio: true,
+  enableStreamCapture: false,
+ })
+
+
+setResolution(window.innerWidth,window.innerHeight);
+a.setBins(8)
+
+src(o0)
+osc( 20, 0.01, ()=>a.fft[7]*3).modulate(noise(3),()=>a.fft[0]) 
+.kaleid(50)
+.saturate( () => Math.sin(time) * 10 )
+.hue(() => Math.sin(time)/100)
+
+.add(solid([1,0,0],[0,1,0],[0,0,1],1))
+
+.modulateRepeat(voronoi(0.1,0.1,0.9),3,12,45)
+.out(o0)
+
+
+
+   speed=0.8
+
+   
