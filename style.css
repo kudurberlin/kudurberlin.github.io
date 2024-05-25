@@ -1,0 +1,143 @@
+@font-face {
+  font-family: RightGrotesk-Medium, RightGrotesk-WideMedium, RightGrotesk-SpatialBlack, bianzhidai-Ring;
+  src: url(Assets/RightGrotesk-Medium.otf);
+  src: url(Assets/RightGrotesk-SpatialBlack.otf);
+  src: url(Assets/RightGrotesk-WideMedium.otf);
+  src: url(Assets/bianzhidai_noBG-Ring.otf);
+}
+
+
+html, body { 
+  margin: 0;
+  padding: 0;
+}
+
+
+canvas{
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.logo{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  scale: 55%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.lineup{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: RightGrotesk-SpatialBlack !important;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.1;
+  left:64.5px;
+  top:66px;  
+}
+
+.berghain{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: RightGrotesk-SpatialBlack !important;
+  position: absolute;
+  font-size: 17px;
+  text-align: left;
+  line-height: 1.1;
+  left:423.5px;
+  top: 951.4px; 
+}
+
+.time{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: RightGrotesk-SpatialBlack !important;
+  position: absolute;
+  font-size: 29.7px;
+  text-align: right;
+  line-height: 1.1;
+  left:423.2px;
+  top:952px;  
+} 
+
+.date{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: RightGrotesk-SpatialBlack !important;
+  position: absolute;
+  font-size: 56px;
+  text-align: left;
+  line-height: 1.1;
+  left:62.5px;
+  top:901px;  
+} 
+
+
+ .year{
+  z-index: 1;
+  color:  #0C0D0D;
+  font-family: RightGrotesk-SpatialBlack !important;
+  position: absolute;
+  font-size: 22.9px;
+  text-align: left;
+  line-height: 1;
+  left:326px;
+  top:944.3px;  
+ }
+
+.live{
+  z-index: 1;
+  font-family: RightGrotesk-WideMedium !important;
+  color:  #0C0D0D;
+  position: absolute;
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.1;
+  left: 620.8px;
+  top: 141.4px;
+} 
+
+.vol7{
+  z-index:1;
+  font-family: bianzhidai_noBG-Ring !important;
+  color:  #F39CED;
+  position: absolute;
+  font-size: 30px;
+  left:323px;
+  top:15px;
+  
+} */
